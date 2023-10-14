@@ -28,7 +28,7 @@ The dataset contains 7668 rows and 15 columns. After examining the data, we find
 
 After that, we calculate again the missing values in the dataset. The result is that there are **2114** missing values in the "budget" column. We simply replace the NaN values in budget with its mean. This, then gives us the result of a dataframe with 7591 **rows** and 15 **columns**.
 
-We then change the data types for 3 columns that the types are float to integers, the columns are "budget","gross", and "votes". Also, we make a new "yaer_correct" column contianing the year from "release" column as a string. Followed by dropping the duplicates. From here, our dataset is ready to be analyzed.
+We then change the data types for 3 columns that the types are float to integers, the columns are "budget","gross", and "votes". Also, we make a new "year_correct" column contianing the year from "release" column as a string. Followed by dropping the duplicates. From here, our dataset is ready to be analyzed.
 
 ## Data Analysis
 For the data analysis, we want to find out what variables in the dataset are highly correlated. We also want to gain any insights that influence a movies popularity by their consumers. First, we want to focus on Budget High Correlations and then finding the Company High Correlations.
